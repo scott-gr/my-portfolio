@@ -3,6 +3,17 @@ body {
 }
 
 .card-header {
-  color: #CE7A02
-  font-family: 'PT-Serif', serif 
+  color: #CE7A02;
+  font-family: 'PT-Serif', serif;
+  background-color: #FFFBFF;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.card {
+  background-color: #FFFBFF ;
+  margin-top: 100px;
+  padding: 0px;
+  float: none;
+  
 }
