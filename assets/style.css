@@ -28,8 +28,8 @@ body {
 }
 
 .card-body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #272727;
+  font-family: 'Mukta', sans-serif;
 }
 
 main {
@@ -49,6 +49,8 @@ main {
 
 .navbar-brand {
   text-align: left;
+  color: #CE7A02;
+  font-family: 'Mukta', sans-serif;
 }
 
 .nav-link {
