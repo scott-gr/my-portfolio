@@ -31,3 +31,18 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #272727;
 }
+
+main {
+  margin-bottom: 100px;
+}
+
+.footer {
+  text-align: center;
+  position: fixed;
+  background-color: #272727;
+  color: #CE7A02;
+  bottom: 0;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+}
