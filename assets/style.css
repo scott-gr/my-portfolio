@@ -46,3 +46,12 @@ main {
   align-items: center;
   justify-items: center;
 }
+
+.navbar-brand {
+  text-align: left;
+}
+
+.nav-link {
+  color: #FFFBFF;
+  text-align: right;
+}
