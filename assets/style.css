@@ -2,6 +2,7 @@ body {
   background-color: #D6EFFF;
 }
 
+/* Main card layout */
 .card-header {
   color: #CE7A02;
   font-family: 'PT-Serif', serif;
@@ -19,7 +20,7 @@ body {
   border: none;
   
 }
-
+/* headshot */
 #aboutPhoto {
   height: 200px;
   width: 200px;
@@ -35,7 +36,7 @@ body {
 main {
   margin-bottom: 100px;
 }
-
+/* footer styling */
 .footer {
   text-align: center;
   position: fixed;
@@ -46,7 +47,7 @@ main {
   align-items: center;
   justify-items: center;
 }
-
+/* Navbar styling */
 .navbar-brand {
   text-align: left;
   color: #CE7A02;
@@ -70,6 +71,7 @@ main {
 
 form {
   padding: 15px;
+  font-family: 'Mukta', sans-serif;
 }
 
 .send-message {
