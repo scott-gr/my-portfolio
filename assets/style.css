@@ -64,4 +64,17 @@ main {
 
 .project-card {
   max-width: 300px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
+
+form {
+  padding: 15px;
+}
+
+.send-message {
+  background-color: #CE7A02;
+  border: none;
+
+}
+
