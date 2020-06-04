@@ -59,7 +59,9 @@ main {
 }
 
 .card-img-top {
-  height: 150;
-  width: 150;
-  border: none;
+  max-width: 300px;
+}
+
+.project-card {
+  max-width: 300px;
 }
