@@ -16,6 +16,8 @@
 ## Deployment
 https://scott-gr.github.io/gt-homework-bootstrap-portfolio/
 
+## Usage
+Click through nav bar to view pages.
 
 ## Credit
 Thank you to the 2020 GT Full Stack Bootcamp cohort for your resources and brainstorming.
