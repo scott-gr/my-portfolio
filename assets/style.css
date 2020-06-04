@@ -57,3 +57,9 @@ main {
   color: #FFFBFF;
   text-align: right;
 }
+
+.card-img-top {
+  height: 150;
+  width: 150;
+  border: none;
+}
