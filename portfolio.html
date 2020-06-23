@@ -10,8 +10,8 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <!--google fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet"> 
-    <!-- my custom css-->
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+  <!-- my custom css-->
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -29,7 +29,7 @@
     crossorigin="anonymous"></script>
   <!--nav bar-->
   <nav class="navbar navbar-expand-md fixed-top" style="background-color: #272727">
-    <a class="navbar-brand" style="color: #CE7A02" href="#">Scott Griffin</a>
+    <a class="navbar-brand" href="#">Scott Griffin</a>
     <!--hamburger button-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,76 +43,93 @@
       <!-- Page Links -->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="about.html">About Me</a>
+          <a class="nav-link" href="index.html">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"">Portfolio<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Portfolio<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
+      <div class="navbar-brand">
+        <a href="https://www.linkedin.com/in/scottgriffinatl/" id="gitLink">LinkedIn <img
+            src="assets/images/linkedin-icon.png" id="linkedinIcon"></a>
+        <a href="https://github.com/scott-gr" id="gitLink">GitHub <img src="assets/images/GitHub-Mark-32px.png"
+            id="gitIcon"></a>
+      </div>
     </div>
   </nav>
 
-  <main class="container"></main>
-  <div class="row">
-    <div class="col"></div>
-    <div class="card col-8">
-      <!-- card header-->
-      <header class="card-header">
-        Portfolio
-      </header>
-      <div class="row row-cols-2">
-        <!--Project: Spellslots-->
-        <div class="col sm-4">
-          <div class="card project-card">
-            <img src="./assets/images/spellslot-place.jpg" class="card-img-top" alt="magical orbs">
+  <main class="container justify-content-center">
+    <div class="col-12 justify-content-center mx-auto">
+      <div class="row">
+        <header></header>
+      </div>
+      <div class="row mb-0">
+        <div class="col-md">
+          <div class="card">
+            <img class="card-img-top" src="assets/images/staying-in-tonight-1.png" alt="app screenshot">
             <div class="card-body">
-              <h5 class="card-title">Spell Slot Tracker</h5>
-              <p class="card-text"><strong>Project coming soon</strong><br>A companion app for Dungeons & Dragons players to easily track their spell slots.</p>
+              <h5 class="card-title">Staying In Tonight</h5>
+              <p class="card-text">An application to help users decide what to do on a night in. Select a genre and
+                receive movie and video game recommendations.</p>
+            </div>
+            <div class="card-body">
+              <a href="https://github.com/scott-gr/Staying-in-Tonight-Generator" class="card-link">GitHub Repo</a>
+              <a href="https://scott-gr.github.io/Staying-in-Tonight-Generator/" class="card-link">Deployed Page</a>
             </div>
           </div>
         </div>
-        <!--Project: Password Generator-->
-        <div class="col sm-4">
-          <div class="card project-card">
-            <img src="./assets/images/password-place.jpg" class="card-img-top" alt="code screen">
+        <div class="col-md">
+          <div class="card">
+            <img class="card-img-top" src="assets/images/Password_Generator-1.png" alt="app screenshot">
             <div class="card-body">
               <h5 class="card-title">Password Generator</h5>
-              <p class="card-text"><strong>Project coming soon</strong><br>A secure, random password generator to protect your privacy online.</p>
+              <p class="card-text">A secure random password generator, with options to include Uppercase, lowercase,
+                numbers, and special characters.</p>
+            </div>
+            <div class="card-body">
+              <a href="https://github.com/scott-gr/gt-password-generator" class="card-link">GitHub Repo</a>
+              <a href="https://scott-gr.github.io/gt-password-generator/" class="card-link">Deployed Page</a>
             </div>
           </div>
         </div>
-        <!-- Project: Ratslayer-->
-        <div class="col sm-4">
-          <div class="card project-card">
-            <img src="./assets/images/ratslayer-place.jpg" class="card-img-top" alt="mad cat">
+      </div>
+      <div class="row mb-0">
+        <div class="col-md">
+          <div class="card">
+            <img class="card-img-top" src="assets/images/Coding_Quiz.png" alt="app screenshot">
+            <div class="card-body">
+              <h5 class="card-title">Coding Quiz</h5>
+              <p class="card-text">A simple quiz to test your knowledge on front-end development.</p>
+            </div>
+            <div class="card-body">
+              <a href="https://github.com/scott-gr/coding-quiz-gt-hw" class="card-link">GitHub Repo</a>
+              <a href="https://scott-gr.github.io/coding-quiz-gt-hw/" class="card-link">Deployed Page</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <img class="card-img-top" src="assets/images/Rat_Slayer_on_Scratch.png" alt="app screenshot">
             <div class="card-body">
               <h5 class="card-title">Rat Slayer</h5>
-              <p class="card-text">A browser-based classic shooter.</p>
+              <p class="card-text">A space-invaders inspired flash game using Scratch game development tools.</p>
             </div>
-          </div>
-        </div>
-        <!--Project: Coming Soon-->
-        <div class="col sm-4">
-          <div class="card project-card">
-            <img src="./assets/images/coming-soon-place.jpg" class="card-img-top" alt="dock at sunset">
             <div class="card-body">
-              <h5 class="card-title">New Project</h5>
-              <p class="card-text"><strong>To be announced</strong><br>Follow me on Github to see what I'm working on next.</p>
+              <a href="https://scratch.mit.edu/projects/396284264/" class="card-link">Scratch Game Page</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="col"></div>
-  </div>
-</main>
-    <!--footer-->
+
+  </main>
+  <!--footer-->
   <footer class="footer ">
     <div class="container">
-      © Copyright
+      site and content by Scott
     </div>
   </footer>
 
