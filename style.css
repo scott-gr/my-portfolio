@@ -9,12 +9,12 @@ body {
   background-color: #EAEAEB;
   font-weight: bold;
   font-size: 40px;
+  max-height: fit-content;
 }
 
 .card {
   background-color: #EAEAEB ;
-  margin-top: 100px ;
-  margin-bottom: 100px;
+  margin-top: 30px ;
   padding: 0px;
   float: none;
   border: none;
@@ -86,4 +86,8 @@ form {
 #linkedinIcon {
   height: 32px;
   width: 32px;
+}
+
+header {
+  margin-top: 75px;
 }
