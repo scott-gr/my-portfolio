@@ -1,18 +1,18 @@
 body {
-  background-color: #D6EFFF;
+  background-color: #4C5C68;
 }
 
 /* Main card layout */
 .card-header {
-  color: #CE7A02;
+  color: #C45A63;
   font-family: 'PT-Serif', serif;
-  background-color: #FFFBFF;
+  background-color: #EAEAEB;
   font-weight: bold;
   font-size: 40px;
 }
 
 .card {
-  background-color: #FFFBFF ;
+  background-color: #EAEAEB ;
   margin-top: 100px ;
   margin-bottom: 100px;
   padding: 0px;
@@ -29,7 +29,7 @@ body {
 }
 
 .card-body {
-  color: #272727;
+  color: #46494C;
   font-family: 'Mukta', sans-serif;
 }
 
@@ -40,8 +40,8 @@ main {
 .footer {
   text-align: center;
   position: fixed;
-  background-color: #272727;
-  color: #CE7A02;
+  background-color: #46494C;
+  color: #EAEAEB;
   bottom: 0;
   width: 100%;
   align-items: center;
@@ -50,12 +50,12 @@ main {
 /* Navbar styling */
 .navbar-brand {
   text-align: left;
-  color: #CE7A02;
+  color: #C96971;
   font-family: 'Mukta', sans-serif;
 }
 
 .nav-link {
-  color: #FFFBFF;
+  color: #EAEAEB;
   text-align: right;
 }
 
@@ -75,13 +75,25 @@ form {
 }
 
 .send-message {
-  background-color: #CE7A02;
+  background-color: #C96971;
   border: none;
 
 }
 
 .contact-link {
-  color: #CE7A02;
+  color: #C96971;
   font-size: 20px;
 }
 
+#gitIcon {
+  background-color: white;
+}
+
+#gitLink {
+  color: #C96971;
+}
+
+#linkedinIcon {
+  height: 32px;
+  width: 32px;
+}
