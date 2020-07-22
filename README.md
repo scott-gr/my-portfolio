@@ -14,7 +14,7 @@
    * hamburger menu icon
 
 ## Deployment
-https://scott-gr.github.io/gt-homework-bootstrap-portfolio/
+https://scott-gr.github.io/my-portfolio/index.html
 
 ## Usage
 Click through nav bar to view pages.
